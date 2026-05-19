@@ -110,7 +110,3 @@ cd apps/web
 npm run typecheck
 npm run build
 ```
-
-## 隐私说明
-
-本交付目录不应包含本机 API Key、个人昵称、浏览器缓存、Qt WebEngine profile、运行日志、烟测截图、`.runtime/`、`node_modules/`、`dist/`、`.venv/` 等本地运行产物。首次运行后产生的本地文件会写入 `.runtime/`，不建议提交。
