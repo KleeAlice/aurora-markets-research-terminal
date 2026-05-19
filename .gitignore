@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Build artifacts
+dist/
+apps/web/dist/
+
+# Python cache and test output
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Local secrets and machine-specific runtime state
+.env
+.env.*
+!.env.example
+.runtime/
+apps/runtime_assets/
+
+# Generated reports and local smoke-test output
+reports/
+submission/
+*.log
+.vite-*.log
+.tmp-*.png
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
